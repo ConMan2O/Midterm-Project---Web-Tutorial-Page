@@ -1,0 +1,123 @@
+/*
+
+CSS rules you may need:
+- font-family
+    - Arial, sans-serif
+- line-height
+- color
+- margin
+- padding
+- background-color
+- border-radius
+- border-left
+- border-bottom
+- margin-top
+- padding-left
+- padding-bottom
+- width
+- height
+- margin-bottom
+- font-size
+
+Pseudo classes you may need:
+- :hover
+- :first-letter
+- :nth-child
+
+*/
+
+/* Write your CSS code here */
+
+/* General page style */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(229, 250, 255);
+  color: black;
+}
+
+/* Main header */
+header {
+  background-color: rgb(0, 191, 255);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Section container */
+section {
+  background-color: white;
+  margin: 30px auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section headings */
+section h2 {
+  border-left: 4px solid rgb(0, 191, 255);
+  padding-left: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border-bottom: 1px solid rgb(0, 191, 255);
+  padding-bottom: 5px;
+}
+
+/* Drop cap paragraph styling */
+section p::first-letter {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(0, 191, 255);;
+}
+
+/* Images */
+section img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th {
+  background-color: rgb(0, 191, 255);;
+  color: rgb(238, 238, 238);
+  text-align: left;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  background-color: white;
+  border-bottom: 1px solid rgb(228, 228, 228);
+}
+
+/* Alternate row colors */
+table tr:nth-child(even) td {
+  background-color: rgb(240, 240, 240);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 12px;
+  color: rgb(128, 128, 128);
+  padding: 20px 0;
+}
+
+/* Table row hover effect */
+table tr:hover td {
+  background-color: rgb(153, 230, 243);
+}
