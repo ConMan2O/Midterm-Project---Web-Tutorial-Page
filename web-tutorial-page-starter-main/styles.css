@@ -28,7 +28,7 @@ Pseudo classes you may need:
 
 /* Write your CSS code here */
 
-/* General page style */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -37,7 +37,7 @@ body {
   color: black;
 }
 
-/* Main header */
+
 header {
   background-color: rgb(0, 191, 255);
   color: white;
@@ -47,7 +47,7 @@ header {
   font-weight: bold;
 }
 
-/* Section container */
+
 section {
   background-color: white;
   margin: 30px auto;
@@ -58,7 +58,7 @@ section {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Section headings */
+
 section h2 {
   border-left: 4px solid rgb(0, 191, 255);
   padding-left: 10px;
@@ -68,14 +68,14 @@ section h2 {
   padding-bottom: 5px;
 }
 
-/* Drop cap paragraph styling */
+
 section p::first-letter {
   font-size: 24px;
   font-weight: bold;
   color: rgb(0, 191, 255);;
 }
 
-/* Images */
+
 section img {
   display: block;
   margin: 20px auto;
@@ -84,7 +84,7 @@ section img {
   border-radius: 8px;
 }
 
-/* Table */
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -104,12 +104,12 @@ td {
   border-bottom: 1px solid rgb(228, 228, 228);
 }
 
-/* Alternate row colors */
+
 table tr:nth-child(even) td {
   background-color: rgb(240, 240, 240);
 }
 
-/* Footer */
+
 footer {
   text-align: center;
   font-size: 12px;
@@ -117,7 +117,7 @@ footer {
   padding: 20px 0;
 }
 
-/* Table row hover effect */
+
 table tr:hover td {
   background-color: rgb(153, 230, 243);
 }
